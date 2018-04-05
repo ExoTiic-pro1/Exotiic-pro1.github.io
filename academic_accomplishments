@@ -15,6 +15,51 @@
       
       }
       
+      .column {
+      float: left;
+      padding: right;
+    }
+  
+    .column img {
+      float: right;
+    } 
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .menu {
+      width: 20%;
+    }
+    
+    .content {
+      width: 70%;
+      float: right;
+    }
+    
+    .more {
+      float: right;
+      
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      padding: 8px;
+      margin-bottom: 8px;
+      background-color: black;
+    }
+    
+    .menu li: hover {
+      background-color: #0099cc;
+      }
+      
 h2 {
  color:black;
  text-align :center;
@@ -46,6 +91,12 @@ h2 {
       <h1>Academic accomplishments</h1>
     </div>
    <br>
+     <div class="clearfix">
+       <div class="column menu">
+         <ul>
+          <li><a href="https://exotiic-pro1.github.io/electronic_portfolio.html">Back to portfolio</a></li>
+         </ul>
+       </div>      
    <h2>
    What I have accomplished in my career!
    </h2>
