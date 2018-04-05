@@ -9,11 +9,91 @@
       table, th, td {
         border: 1px solid black;
       }
-    </style>
+   
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+  
+    .header,
+    .footer {
+      background-color: black;
+      color: white;
+      padding: 15px;
+    }
+  
+    .column {
+      float: left;
+      padding: right;
+    }
+  
+    .column img {
+      float: right;
+    } 
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .menu {
+      width: 20%;
+    }
+    
+    .content {
+      width: 70%;
+      float: right;
+    }
+    
+    .more {
+      float: right;
+      
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      padding: 8px;
+      margin-bottom: 8px;
+      background-color: black;
+    }
+    
+    .menu li: hover {
+      background-color: #0099cc;
+      }
+   h1 {
+    text-align:center;
+    color: white;
+  	font-size: 30px;
+    background-color: black;
+    font-family:Rockwell;
+    }
+  h2 {
+    color:black;
+  	font-size: 30px;
+    font-family:sanchez;
+    text-align:center;
+    }
+  
+   
+   </style>
   </head>
   <body>
-   
-    <table>
+   <h1>
+   My academic history
+   </h1>
+    <br>
+    <u><strong><h2>
+    My highschool report card
+    </h2></strong></u>
+   <br>
+   <br>
+   <table>
           <tr>
      <th>Report card</th>
         <th>Jonathan Jeferson Steve</th>
@@ -28,7 +108,7 @@
       </tr>
       <tr>
         <td><strong>Subject</strong></td>
-        <td></td>
+        <td><strong>Fidlle highschool</strong></td>
         <td><strong>Grades</strong></td>
     
         </tr>
@@ -59,7 +139,7 @@
         <td>A</td>
         </tr>
   </table>
-  
+  <img src="https://vgy.me/yteYne.jpg" alt="yteYne.jpg" width= 500px height= 500px>
  </body>
 </html>
 
